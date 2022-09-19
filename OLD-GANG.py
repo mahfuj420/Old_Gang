@@ -1362,14 +1362,15 @@ def Subscraption():
 		print("")
 		print(" 𝑪𝒐𝒑𝒚 𝑨𝒏𝒅 𝑷𝒂𝒔𝒕𝒆 𝑲𝒆𝒚 𝑰𝒏𝒃𝒐𝒙")
 		print ("")
-		print (" Your Key : "+old+gang+key1)
+		print (" Your Key : "+ak+Akash+key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Free%20Te,%20Log%20In%20Approved%20Key%20Nite%20%20%20Ashchi%20😁😁%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Akash+''+key1
+		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Akash+''+key1
 		os.system('am start https://www.facebook.com/Kingz.Tor.Abbu' + tks)
-		Subscraption()  
-		
-Subscraption()
+		Subscraption() 
+Subscraption() 
+
+
