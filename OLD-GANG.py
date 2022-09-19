@@ -1339,7 +1339,7 @@ class Main:
 		self.loop +=1
  
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.Old_Gang-cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.Old-cov', 'r').read()
 	clear()
 	print(logo)
 	r1=requests.get("https://raw.githubusercontent.com/mahfuj420/Old_Gang/main/approval.txt").text
