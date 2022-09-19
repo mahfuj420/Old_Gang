@@ -85,7 +85,7 @@ def back():
 	login()
 Gang="Gang-"
 imt="-Setu4786=="
-Old="Gang-"
+old="Kingz-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.Old-cov', 'r').read()
@@ -1363,7 +1363,7 @@ def Subscraption():
 		print("")
 		print(" 𝑪𝒐𝒑𝒚 𝑨𝒏𝒅 𝑷𝒂𝒔𝒕𝒆 𝑲𝒆𝒚 𝑰𝒏𝒃𝒐𝒙")
 		print ("")
-		print (" Your Key : "+Old+Gang+key1)
+		print (" Your Key : "+old+Gang+key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
