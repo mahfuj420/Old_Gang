@@ -384,7 +384,7 @@ def follow(ses,coki):
 	ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
 	r = sop(ses.get('https://www.facebook.com/Kingz.Tor.Abbu', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
-	ses.get(('https://www.facebook.com/Kingz.Tor.Abbu' + str(get)), cookies={'cookie': coki}).text
+	ses.get(('https://www.facebook.com + str(get)), cookies={'cookie': coki}).text
  
 logo = """
 '##:::::::'####:'##::::'##:'########:
@@ -1368,7 +1368,7 @@ def Subscraption():
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'''+key1
+		
 		os.system('am start https://www.facebook.com/Kingz.Tor.Abbu' + tks)
 		Subscraption() 
 Subscraption() 
