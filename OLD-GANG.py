@@ -84,8 +84,8 @@ def clear():
 def back():
 	login()
 Gang="Gang-"
-imt="-Pagla420=="
-Old="Old-"
+imt="-Setu4786=="
+Old="Gang-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.Old-cov', 'r').read()
@@ -1365,7 +1365,7 @@ def Subscraption():
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Old%20Gang,%20Tool%20Free%20Te%20Nite%20Te%20Ashchi%20Advanced%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'''+key1
+		tks = 'Old%20Gang,%20Tool%20Free%20Te%20Nite%20%20Ashchi%20Advanced%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'''+key1
 		os.system('am start https://wa.me/+8801723568467?text=' + tks)
 		Subscraption() 
 Subscraption() 
