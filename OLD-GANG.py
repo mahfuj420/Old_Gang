@@ -88,9 +88,9 @@ imt="-Setu4786=="
 ak="Lover-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.Old_Gang-cov,'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.OLD_GANG-cov,'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
