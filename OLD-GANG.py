@@ -1362,7 +1362,7 @@ def Subscraption():
 		print("")
 		print(" 𝑪𝒐𝒑𝒚 𝑨𝒏𝒅 𝑷𝒂𝒔𝒕𝒆 𝑲𝒆𝒚 𝑰𝒏𝒃𝒐𝒙")
 		print ("")
-		print (" Your Key : "+ak+OldGang+key1)
+		print (" Your Key : "+old+Gang+key1)
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
